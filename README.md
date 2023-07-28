@@ -5,6 +5,11 @@ Run these commands to get started
 deno run main.ts
 ```
 
+- Allow net
+```
+deno run --allow-net=deno.com [file_name]
+```
+
 ## Run the program and watch for file changes
 ```
 deno task dev
